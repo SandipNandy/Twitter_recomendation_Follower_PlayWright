@@ -1,4 +1,4 @@
-# This is a python file for Twitter Recomendation follower bot creation projects
+
 
 
 
