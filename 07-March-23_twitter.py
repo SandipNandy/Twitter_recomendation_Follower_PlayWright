@@ -5,8 +5,6 @@
 #  Python Playwright              #
 ###################################
 
-
-
 import time
 import os
 
