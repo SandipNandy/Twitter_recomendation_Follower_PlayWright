@@ -4,6 +4,7 @@
 # Address :- Bangalore, Karnataka #
 #  Python Playwright              #
 ###################################
+
 import time
 import os
 from selenium import webdriver
@@ -13,6 +14,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import StaleElementReferenceException, TimeoutException
+
 
 # replaces the need to manually provide chrome binary path
 from instapy_chromedriver import binary_path
