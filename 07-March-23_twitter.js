@@ -4,11 +4,8 @@
  * Address :- Bangalore, Karnataka
  * Twitter Recomendation Follower Playwright
  */
-
-
 // npm install dotenv playwright
 require('dotenv').config()
-
 const playwright = require('playwright');
 // create a .env file
 // TWITTER_USERNAME=
@@ -16,7 +13,6 @@ const playwright = require('playwright');
 const browserType = 'chromium'; // chrome
 const username = process.env.TWITTER_USERNAME;
 const password = process.env.TWITTER_PASSWORD;
-
 async function main() {
   const browser = await playwright[browserType].launch({ headless: false });
   const page = await browser.newPage();
