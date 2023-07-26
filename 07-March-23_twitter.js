@@ -19,9 +19,12 @@ const playwright = require('playwright');
 // TWITTER_PASSWORD=
 const browserType = 'chromium'; // chrome
 const username = process.env.TWITTER_USERNAME;
+
 const password = process.env.TWITTER_PASSWORD;
+
 async function main() {
   const browser = await playwright[browserType].launch({ headless: false });
+ 
   const page = await browser.newPage();
 
   await page.goto('http://twitter.com/login');
