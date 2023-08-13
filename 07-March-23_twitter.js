@@ -34,7 +34,6 @@ async function main() {
   const followButtons = await page.$$("//div[contains(@data-testid, '-follow')]");
   let followed = 0;
   const maxFollow = 2;
-
   for (const button of followButtons) {
     if (followed >= maxFollow) break;
 
