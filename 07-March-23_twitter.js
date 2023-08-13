@@ -36,7 +36,6 @@ async function main() {
   const maxFollow = 2;
   for (const button of followButtons) {
     if (followed >= maxFollow) break;
-
     await button.hover();
 
     if (Math.random() < .3) {
