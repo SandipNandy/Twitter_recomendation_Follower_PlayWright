@@ -14,7 +14,6 @@ const playwright = require('playwright');
 // TWITTER_PASSWORD=
 const browserType = 'chromium'; // chrome
 const username = process.env.TWITTER_USERNAME;
-
 const password = process.env.TWITTER_PASSWORD;
 
 async function main() {
