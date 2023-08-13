@@ -42,7 +42,6 @@ async function main() {
       await button.click();
       followed++;
     }
-
     await page.waitForTimeout(2000);
   }
 
