@@ -1,19 +1,14 @@
 /**
  * Author :- Sandip Nandi
  * Date :- 07-March-2023
- 
  * Address :- Bangalore, Karnataka
- 
  * Twitter Recomendation Follower Playwright
  */
 
 
 // npm install dotenv playwright
-
 require('dotenv').config()
-
 const playwright = require('playwright');
-
 // create a .env file
 // TWITTER_USERNAME=
 // TWITTER_PASSWORD=
