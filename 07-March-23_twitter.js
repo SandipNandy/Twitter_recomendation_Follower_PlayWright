@@ -25,7 +25,6 @@ async function main() {
   const inputPassword = await page.$('[name="session[password]"]');
   await inputPassword.type(password);
   await inputPassword.press("Enter");
-
   await page.waitForTimeout(4000);
   const follow = await page.$('[aria-label="Who to follow"]');
  
