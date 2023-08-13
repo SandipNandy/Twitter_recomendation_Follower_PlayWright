@@ -4,8 +4,6 @@
 # Address :- Bangalore, Karnataka #
 #  Python Playwright              #
 ###################################
-
-
 import time
 
 import os
