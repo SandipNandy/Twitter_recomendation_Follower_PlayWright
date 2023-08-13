@@ -27,7 +27,6 @@ async function main() {
   await inputPassword.press("Enter");
   await page.waitForTimeout(4000);
   const follow = await page.$('[aria-label="Who to follow"]');
- 
   const element = await follow.$('"Show more"');
   await element.click();
 
