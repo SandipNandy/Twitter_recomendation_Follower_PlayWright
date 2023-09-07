@@ -10,6 +10,7 @@
 require('dotenv').config()
 
 const playwright = require('playwright');
+
 // create a .env file
 // TWITTER_USERNAME=
 // TWITTER_PASSWORD=
