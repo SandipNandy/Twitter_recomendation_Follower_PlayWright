@@ -38,6 +38,7 @@ async function main() {
   await inputUsername.type(username);
   
   const inputPassword = await page.$('[name="session[password]"]');
+  
   await inputPassword.type(password);
   await inputPassword.press("Enter");
   await page.waitForTimeout(4000);
