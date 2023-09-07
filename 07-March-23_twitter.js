@@ -32,6 +32,7 @@ async function main() {
   await page.goto('http://twitter.com/login');
   
   await page.waitForTimeout(1000);
+  
   const inputUsername = await page.$('[name="session[username_or_email]"]');
   await inputUsername.type(username);
   const inputPassword = await page.$('[name="session[password]"]');
