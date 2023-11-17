@@ -83,6 +83,7 @@ class TwitterRecommendationFollower:
             action_chain.send_keys(password)
             
             action_chain.send_keys(Keys.ENTER)
+            
             action_chain.perform()
 
             # waiting for and closing the notifications dialog
