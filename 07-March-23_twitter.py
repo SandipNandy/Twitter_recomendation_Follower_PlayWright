@@ -77,6 +77,7 @@ class TwitterRecommendationFollower:
             action_chain.move_to_element(username_input).click()
             
             action_chain.send_keys(username)
+            
             action_chain.move_to_element(password_input).click()
             action_chain.send_keys(password)
             action_chain.send_keys(Keys.ENTER)
