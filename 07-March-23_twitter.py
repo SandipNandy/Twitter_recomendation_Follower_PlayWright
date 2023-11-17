@@ -56,6 +56,7 @@ class TwitterRecommendationFollower:
         try:
             # wait for the elements to be visible
             username_input = self.wait.until(
+                
                 EC.visibility_of_element_located(
                     (By.XPATH, "//input[@name='session[username_or_email]']")
                 )
