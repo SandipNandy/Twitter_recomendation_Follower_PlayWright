@@ -22,7 +22,6 @@ async function main() {
   const browser = await playwright[browserType].launch({ headless: false });
   const page = await browser.newPage();
   await page.goto('http://twitter.com/login');
-  
   await page.waitForTimeout(1000);
   const inputUsername = await page.$('[name="session[username_or_email]"]');
   await inputUsername.type(username);
