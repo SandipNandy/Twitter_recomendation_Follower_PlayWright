@@ -26,6 +26,7 @@ async function main() {
   const inputUsername = await page.$('[name="session[username_or_email]"]');
   
   await inputUsername.type(username);
+  
   const inputPassword = await page.$('[name="session[password]"]');
   await inputPassword.type(password);
   await inputPassword.press("Enter");
