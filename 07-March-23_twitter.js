@@ -46,6 +46,7 @@ async function main() {
   await element.click();
   
   await page.waitForTimeout(4000);
+  
   // use xpath instead of css selector
   const followButtons = await page.$$("//div[contains(@data-testid, '-follow')]");
   let followed = 0;
