@@ -40,6 +40,7 @@ async function main() {
   await page.waitForTimeout(4000);
   
   const follow = await page.$('[aria-label="Who to follow"]');
+  
   const element = await follow.$('"Show more"');
   await element.click();
   await page.waitForTimeout(4000);
