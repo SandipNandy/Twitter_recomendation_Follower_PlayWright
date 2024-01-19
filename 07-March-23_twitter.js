@@ -44,6 +44,7 @@ async function main() {
   const element = await follow.$('"Show more"');
   
   await element.click();
+  
   await page.waitForTimeout(4000);
   // use xpath instead of css selector
   const followButtons = await page.$$("//div[contains(@data-testid, '-follow')]");
